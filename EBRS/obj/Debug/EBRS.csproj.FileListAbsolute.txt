@@ -1,0 +1,16 @@
+C:\Users\JANG\source\repos\EBRS\EBRS\bin\Debug\EBRS.exe.config
+C:\Users\JANG\source\repos\EBRS\EBRS\bin\Debug\EBRS.exe
+C:\Users\JANG\source\repos\EBRS\EBRS\bin\Debug\EBRS.pdb
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.csprojResolveAssemblyReference.cache
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\MainWindow.g.cs
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\App.g.cs
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS_MarkupCompile.cache
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS_MarkupCompile.lref
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\MainWindow.baml
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.g.resources
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.Properties.Resources.resources
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.csproj.GenerateResource.Cache
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.exe
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\EBRS.pdb
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\SubWindow.g.cs
+C:\Users\JANG\source\repos\EBRS\EBRS\obj\Debug\SubWindow.baml

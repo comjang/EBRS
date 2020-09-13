@@ -1,0 +1,24 @@
+@prefix rdf:  <http://www.w3.org/1999/02/22-rdf-syntax-ns#>.
+@prefix rdfs:  <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix owl:  <http://www.w3.org/2002/07/owl#>.
+@prefix foaf:  <http://xmlns.com/foaf/0.1/>.
+@prefix dc:  <http://purl.org/dc/elements/1.1/>.
+@prefix dbo:  <http://dbpedia.org/ontology/>.
+@prefix dbpedia:  <http://dbpedia.org/resource/>.
+@prefix dbprop:  <http://dbpedia.org/property/>.
+@prefix dbyago:  <http://dbpedia.org/class/yago/>.
+@prefix void:  <http://rdfs.org/ns/void#>.
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#>.
+@prefix dct: <http://purl.org/dc/terms/subject>.
+@prefix dbc: <http://dbpedia.org/page/Category:>.
+
+dbpedia:Cologne_Cathedral "is_the_largest_cathedral_in" dbpedia:Germany.
+dbpedia:Cologne_Cathedral "600_years" dbpedia:Construction.
+dbpedia:Cologne_Cathedral dbprop:near dbpedia:Rhine.
+dbpedia:Cologne_Cathedral "has_the_oldest_wooden_cross" dbpedia:Europe.
+{?s foaf:homepage ?o.} => {?o dbprop:show ?s.}.
+{?s foaf:depiction ?o.} => {?s dbprop:picture ?o.}.
+{?s dbprop:bells ?o.} => {?o "bells_in" ?s.}.
+{?s dbprop:architecturalType "Cathedral_Church".} => {dbpedia:Guest dbprop:attend dbpedia:Catholic_Mass.}.
+{?s dbprop:organist ?o.} => {?o "plays_the_organ_in" ?s.}.
+{?s dbprop:assistantorganist ?o.} => {?o "plays_the_organ_in" ?s.}.

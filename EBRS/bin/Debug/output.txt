@@ -1,0 +1,277 @@
+#Processed by EYE v19.0723.1200 josd
+#eye input/Category_World_Heritage_Sites_by_continent.n3 input/Cologne_Cathedral.n3 rule/ontology/Cologne_rules.n3 --query query-all.n3 --nope
+
+PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+PREFIX dbc: <http://dbpedia.org/resource/Category:>
+PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX ns5: <http://es.dbpedia.org/resource/Categoría:>
+PREFIX wikidata: <http://www.wikidata.org/entity/>
+PREFIX ns7: <http://fr.dbpedia.org/resource/Catégorie:>
+PREFIX dbpedia-wikidata: <http://wikidata.dbpedia.org/resource/>
+PREFIX ns9: <http://id.dbpedia.org/resource/Kategori:>
+PREFIX prov: <http://www.w3.org/ns/prov#>
+PREFIX dbo: <http://dbpedia.org/ontology/>
+PREFIX dbp: <http://dbpedia.org/property/>
+PREFIX dbr: <http://dbpedia.org/resource/>
+PREFIX foaf: <http://xmlns.com/foaf/0.1/>
+PREFIX wikipedia-en: <http://en.wikipedia.org/wiki/>
+PREFIX yago: <http://dbpedia.org/class/yago/>
+PREFIX umbel-rc: <http://umbel.org/umbel/rc/>
+PREFIX schema: <http://schema.org/>
+PREFIX geo: <http://www.w3.org/2003/01/geo/wgs84_pos#>
+PREFIX dbpedia-es: <http://es.dbpedia.org/resource/>
+PREFIX yago-res: <http://yago-knowledge.org/resource/>
+PREFIX dbpedia-eu: <http://eu.dbpedia.org/resource/>
+PREFIX dbpedia-it: <http://it.dbpedia.org/resource/>
+PREFIX dbpedia-nl: <http://nl.dbpedia.org/resource/>
+PREFIX dct: <http://purl.org/dc/terms/>
+PREFIX xsd: <http://www.w3.org/2001/XMLSchema#>
+PREFIX virtrdf: <http://www.openlinksw.com/schemas/virtrdf#>
+PREFIX georss: <http://www.georss.org/georss/>
+PREFIX ns25: <http://koelner-dommusik.de/index.php/de/domorgeln/domorganisten/>
+PREFIX ns26: <http://www.wdr.de/>
+PREFIX ns27: <http://www.w3.org/2006/03/wn/wn20/instances/>
+PREFIX ns28: <http://purl.org/linguistics/gold/>
+PREFIX dc: <http://purl.org/dc/elements/1.1/>
+PREFIX void: <http://rdfs.org/ns/void#>
+PREFIX ns1: <http://purl.org/dc/terms/subject>
+PREFIX ns2: <http://dbpedia.org/page/Category:>
+
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> a skos:Concept.
+dbr:Cologne_Cathedral a yago:Wikicat13th-centuryRomanCatholicChurchBuildings.
+dbr:Cologne_Cathedral a dbo:Building.
+dbr:Cologne_Cathedral a dbo:HistoricBuilding.
+dbr:Cologne_Cathedral a dbo:ArchitecturalStructure.
+dbr:Cologne_Cathedral a dbo:Location.
+dbr:Cologne_Cathedral a dbo:Place.
+dbr:Cologne_Cathedral a yago:WikicatRomanCatholicCathedralsInGermany.
+dbr:Cologne_Cathedral a yago:WikicatCathedralsInGermany.
+dbr:Cologne_Cathedral a yago:WikicatChurchesInGermany.
+dbr:Cologne_Cathedral a yago:WikicatReligiousBuildingsCompletedIn1880.
+dbr:Cologne_Cathedral a yago:WikicatCathedrals.
+dbr:Cologne_Cathedral a yago:Cathedral102984061.
+dbr:Cologne_Cathedral a yago:Object100002684.
+dbr:Cologne_Cathedral a yago:PhysicalEntity100001930.
+dbr:Cologne_Cathedral a owl:Thing.
+dbr:Cologne_Cathedral a yago:Wikicat19th-centuryRomanCatholicChurchBuildings.
+dbr:Cologne_Cathedral a umbel-rc:Place.
+dbr:Cologne_Cathedral a wikidata:Q41176.
+dbr:Cologne_Cathedral a umbel-rc:Location_Underspecified.
+dbr:Cologne_Cathedral a <http://dbpedia.org/class/yago/WikicatFormerWorld'sTallestBuildings>.
+dbr:Cologne_Cathedral a yago:Whole100003553.
+dbr:Cologne_Cathedral a schema:Place.
+dbr:Cologne_Cathedral a yago:YagoGeoEntity.
+dbr:Cologne_Cathedral a yago:YagoPermanentlyLocatedEntity.
+dbr:Cologne_Cathedral a geo:SpatialThing.
+dbr:Cologne_Cathedral a yago:PlaceOfWorship103953416.
+dbr:Cologne_Cathedral a yago:Structure104341686.
+dbr:Cologne_Cathedral a yago:Building102913152.
+dbr:Cologne_Cathedral a yago:Church103028079.
+dbr:Cologne_Cathedral a yago:Artifact100021939.
+dbr:Cologne_Cathedral a schema:LandmarksOrHistoricalBuildings.
+dbr:Cologne_Cathedral a yago:WikicatChurchesInCologne.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> rdfs:label "World Heritage Sites by continent"@en.
+dbr:Cologne_Cathedral rdfs:label "Kölner Dom"@de.
+dbr:Cologne_Cathedral rdfs:label "Cologne Cathedral"@en.
+dbr:Cologne_Cathedral rdfs:label "Кёльнский собор"@ru.
+dbr:Cologne_Cathedral rdfs:label "ケルン大聖堂"@ja.
+dbr:Cologne_Cathedral rdfs:label "Catedral de Colônia"@pt.
+dbr:Cologne_Cathedral rdfs:label "Dom van Keulen"@nl.
+dbr:Cologne_Cathedral rdfs:label "كاتدرائية كولونيا"@ar.
+dbr:Cologne_Cathedral rdfs:label "Catedral de Colonia"@es.
+dbr:Cologne_Cathedral rdfs:label "Cathédrale de Cologne"@fr.
+dbr:Cologne_Cathedral rdfs:label "Duomo di Colonia"@it.
+dbr:Cologne_Cathedral rdfs:label "科隆主教座堂"@zh.
+dbr:Cologne_Cathedral rdfs:label "Katedra św. Piotra i Najświętszej Marii Panny w Kolonii"@pl.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://es.dbpedia.org/resource/Categoría:Patrimonio_de_la_Humanidad_por_continente>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://ko.dbpedia.org/resource/분류:대륙별_세계유산>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs wikidata:Q7703448.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://fr.dbpedia.org/resource/Catégorie:Patrimoine_mondial_par_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://el.dbpedia.org/resource/Κατηγορία:Μνημεία_Παγκόσμιας_Κληρονομιάς_ανά_ήπειρο>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://it.dbpedia.org/resource/Categoria:Patrimoni_dell'umanità_per_continente>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://ja.dbpedia.org/resource/Category:大陸別の世界遺産>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs dbpedia-wikidata:Q7703448.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> owl:sameAs <http://id.dbpedia.org/resource/Kategori:Situs_Warisan_Dunia_UNESCO_menurut_kawasan>.
+dbr:Cologne_Cathedral owl:sameAs dbpedia-es:Catedral_de_Colonia.
+dbr:Cologne_Cathedral owl:sameAs <http://ko.dbpedia.org/resource/쾰른_대성당>.
+dbr:Cologne_Cathedral owl:sameAs yago-res:Cologne_Cathedral.
+dbr:Cologne_Cathedral owl:sameAs wikidata:Q4176.
+dbr:Cologne_Cathedral owl:sameAs <http://de.dbpedia.org/resource/Kölner_Dom>.
+dbr:Cologne_Cathedral owl:sameAs <http://fr.dbpedia.org/resource/Cathédrale_de_Cologne>.
+dbr:Cologne_Cathedral owl:sameAs <http://id.dbpedia.org/resource/Katedral_Köln>.
+dbr:Cologne_Cathedral owl:sameAs <http://pt.dbpedia.org/resource/Catedral_de_Colônia>.
+dbr:Cologne_Cathedral owl:sameAs <http://el.dbpedia.org/resource/Καθεδρικός_Ναός_της_Κολωνίας>.
+dbr:Cologne_Cathedral owl:sameAs <http://rdf.freebase.com/ns/m.0m4nl>.
+dbr:Cologne_Cathedral owl:sameAs dbpedia-eu:Koloniako_katedrala.
+dbr:Cologne_Cathedral owl:sameAs <http://cs.dbpedia.org/resource/Katedrála_svatého_Petra_(Kolín_nad_Rýnem)>.
+dbr:Cologne_Cathedral owl:sameAs <http://ja.dbpedia.org/resource/ケルン大聖堂>.
+dbr:Cologne_Cathedral owl:sameAs <http://pl.dbpedia.org/resource/Katedra_św._Piotra_i_Najświętszej_Marii_Panny_w_Kolonii>.
+dbr:Cologne_Cathedral owl:sameAs <http://d-nb.info/gnd/4122597-1>.
+dbr:Cologne_Cathedral owl:sameAs dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral owl:sameAs dbpedia-it:Duomo_di_Colonia.
+dbr:Cologne_Cathedral owl:sameAs dbpedia-nl:Dom_van_Keulen.
+dbr:Cologne_Cathedral owl:sameAs dbpedia-wikidata:Q4176.
+dbr:Cologne_Cathedral owl:sameAs <http://sws.geonames.org/6324464/>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> skos:broader <http://dbpedia.org/resource/Category:Categories_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Africa> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Asia> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Oceania> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Europe> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_in_the_Americas> skos:broader <http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> skos:prefLabel "World Heritage Sites by continent"@en.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> prov:wasDerivedFrom <http://en.wikipedia.org/wiki/Category:World_Heritage_Sites_by_continent?oldid=545686733>.
+dbr:Cologne_Cathedral prov:wasDerivedFrom <http://en.wikipedia.org/wiki/Cologne_Cathedral?oldid=744898245>.
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> dbo:wikiPageRevisionID 545686733 .
+dbr:Cologne_Cathedral dbo:wikiPageRevisionID 744898245 .
+<http://dbpedia.org/resource/Category:World_Heritage_Sites_by_continent> dbo:wikiPageID 23786999 .
+dbr:Cologne_Cathedral dbo:wikiPageID 88384 .
+dbr:Rouen_Cathedral dbp:after dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral dbp:after dbr:Ulm_Minster.
+<http://dbpedia.org/resource/Kölner_Dom> dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/Hohe_Domkirche_St._Peter_und_Maria> dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Koln_Cathedral dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Kolner_Dom dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Roncalliplatz dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Ecclesia_Cathedralis_Sanctorum_Petri_et_Mariae dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/Hohe_Domkirche_St._Petrus> dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Cathedral_of_Cologne dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Koelner_Dom dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:Cologne_cathedral dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:The_Cologne_Cathedral dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/High_Cathedral_of_Sts._Peter_and_Mary> dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+dbr:High_Cathedral_of_Saints_Peter_and_Mary dbo:wikiPageRedirects dbr:Cologne_Cathedral.
+wikipedia-en:Cologne_Cathedral foaf:primaryTopic dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/Franz_Christoph_Anton,_Count_of_Hohenzollern-Sigmaringen> dbo:placeOfBurial dbr:Cologne_Cathedral.
+dbr:Ernest_of_Bavaria dbo:placeOfBurial dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/Ferdinand_Leopold,_Count_of_Hohenzollern-Sigmaringen> dbo:placeOfBurial dbr:Cologne_Cathedral.
+dbr:Richeza_of_Lotharingia dbp:burialPlace dbr:Cologne_Cathedral.
+dbr:Gisela_of_Swabia dbp:coronation dbr:Cologne_Cathedral.
+dbr:Joachim_Meisner dbp:church dbr:Cologne_Cathedral.
+dbr:Paul_Melchers dbp:buried dbr:Cologne_Cathedral.
+dbr:Ferdinand_August_von_Spiegel dbp:buried dbr:Cologne_Cathedral.
+<http://dbpedia.org/resource/Joseph_Höffner> dbp:buried dbr:Cologne_Cathedral.
+dbr:Johannes_von_Geissel dbp:buried dbr:Cologne_Cathedral.
+dbr:Felix_von_Hartmann dbp:buried dbr:Cologne_Cathedral.
+dbr:Philipp_Krementz dbp:buried dbr:Cologne_Cathedral.
+dbr:Anton_Hubert_Fischer dbp:buried dbr:Cologne_Cathedral.
+dbr:Karl_Joseph_Schulte dbp:buried dbr:Cologne_Cathedral.
+dbr:Josef_Frings dbp:buried dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral rdfs:comment "ケルン大聖堂（ケルンだいせいどう、独:Kölner Dom）は、ドイツのケルンにあるゴシック様式の大聖堂。正式名称は、ザンクト・ペーター・ウント・マリア大聖堂（Dom St. Peter und Maria。聖ペトロとマリア大聖堂の意）。ゴシック様式の建築物としては世界最大であり、ローマ・カトリック教会のミサがおこなわれている。大聖堂の維持管理は主にケルン大聖堂中央建築協会によって担われている。"@ja.
+dbr:Cologne_Cathedral rdfs:comment "Cologne Cathedral (German: Kölner Dom, officially Hohe Domkirche St. Petrus, Latin: Ecclesia Cathedralis Sanctorum Petri, English: High Cathedral of Saint Peter) is a Roman Catholic cathedral in Cologne, Germany. It is the seat of the Archbishop of Cologne and of the administration of the Archdiocese of Cologne. It is a renowned monument of German Catholicism and Gothic architecture and was declared a World Heritage Site in 1996. It is Germany's most visited landmark, attracting an average of 20,000 people a day, currently the tallest twin-spired church at 157 m (515 ft) tall."@en.
+dbr:Cologne_Cathedral rdfs:comment "كاتدرائية كولونيا (بالألمانية: Kölner Dom كولنر دوم واسمها الرسمي Hohe Domkirche St. Peter und Maria) هي إحدى أشهر الصروح المعمارية والدينية المهيبة في ألمانيا وتتمتع بقدرة عالية على جذب أكبر نسبة من السياح عرفهتا ألمانيا. هذه الكاتدرائية تعد الرمز الحقيقي لمدينة كولونيا م وهو ما يدفع الكثيرين إلى اعتبار مدينة كولونيا بمثابة جسد بلا روح دون الكاتدرائية \"الدوم\". تتبع الكاتدرائية الكنيسة الكاثوليكية وهي مقر رئيس أساقفة كولونيا. عندما انتهى بناء برجيها في العام 1880 م كانت أطول بناء في العالم (برجاها يرتفعان إلى 157 متراًً) وبقيت كذلك حتى بناء صرح واشنطن عام 1884 م."@ar.
+dbr:Cologne_Cathedral rdfs:comment "Кёльнский собор (нем. Kölner Dom) — римско-католический готический собор в Кёльне. Занимает третье место в списке самых высоких церквей мира и внесён в список объектов Всемирного культурного наследия. Строительство главного храма Кёльнской архиепископии велось в два приёма — в 1248—1437 гг. и в 1842—1880 годах. По окончании строительства 157-метровый собор на четыре года стал самым высоким зданием мира."@ru.
+dbr:Cologne_Cathedral rdfs:comment "Katedra Świętego Piotra i Najświętszej Marii Panny w Kolonii (niem. Kölner Dom, oficjalnie Hohe Domkirche St. Peter und Maria) – archikatedra, największy i najważniejszy kościół niemieckiej Kolonii. W latach 313 do 782 świątynia była siedzibą biskupstwa, od 795 do dziś arcybiskupstwa kolońskiego. Na wieżach katedry wisi dwanaście dzwonów, w tym cztery gotyckie z XIV i XV stulecia oraz największy bijący dzwon w Europie – Dzwon Świętego Piotra."@pl.
+dbr:Cologne_Cathedral rdfs:comment "科隆主教座堂（Kölner Dom，全名Hohe Domkirche St. Peter und Maria），是位於德國科隆的一座天主教主教座堂，它是科隆市毫无争议的标志性建筑物。157米高的钟楼使得它成为德国第二（仅次于乌尔姆市的烏爾姆主教座堂）、世界第三高的教堂，另外也是世界上第三大的哥特式教堂（前两位是塞维利亚主教座堂和米兰主教座堂）。它從13世紀中起建，工程時斷時續，至1880年才由德皇威廉一世宣告完工，耗时超過600年，直到今日仍然修繕工程不斷。艺术史专家认为它完美地结合了所有中世纪哥特式建筑和装饰元素，因此聯合國教科文組織于1996年将其列為世界文化遺產（2004年科隆主教座堂被列入瀕危世界遺產名录，2006年脱离该名录）。 1880年至1888年间科隆主教座堂曾是世界上最高的建筑。它至今仍是德国最受欢迎的旅游景点：2001年有5百万游客参观了这座教堂，2004年达到了6百万。 科隆主教座堂隸屬於天主教科隆总教区，是科隆總主教的主教座堂。"@zh.
+dbr:Cologne_Cathedral rdfs:comment "Der Kölner Dom (eigentlich die Hohe Domkirche St. Petrus) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus. Die Kathedrale des Erzbistums Köln war bis Ende 2009 auch Pfarrkirche der Domgemeinde; seit 2010 ist sie von der Pfarrseelsorge exemt. Seit 1996 zählt der Kölner Dom zum UNESCO-Weltkulturerbe."@de.
+dbr:Cologne_Cathedral rdfs:comment "A Catedral de Colônia (português brasileiro) ou Colónia (português europeu) (alemão: Kölner Dom), localizada na cidade alemã de Colônia, é uma igreja de estilo gótico, o marco principal da cidade e seu símbolo não-oficial."@pt.
+dbr:Cologne_Cathedral rdfs:comment "La cathédrale de Cologne (en allemand : Kölner Dom, de son nom plus officiel Hohe Domkirche St. Petrus, soit « Haute Église Cathédrale Saint-Pierre ») est une église catholique romaine de la ville de Cologne ainsi que la cathédrale de l'archevêché de Cologne. Avec ses 157 mètres de haut et ses 533 marches, elle est la deuxième plus haute église d'Allemagne et du monde pour ses tours, après l'Église principale d'Ulm."@fr.
+dbr:Cologne_Cathedral rdfs:comment "De dom van Keulen (Dom St. Peter und Maria) is een gotische kathedraal in het centrum van de Duitse stad Keulen. Het is de hoofdkerk van het aartsbisdom Keulen. Daarnaast is het de grootste kathedraal in Duitsland en tevens een van de grootste in heel Europa. De bouw begon op 15 augustus 1248 en kwam in de 15e eeuw stil te liggen. Pas eeuwen later, in 1824, werd de bouw hervat op basis van de originele ontwerpen. De dom werd in 1880 uiteindelijk in neogotische stijl voltooid. Alleen het laagste gedeelte van de westelijke toren is nog uit de 13e eeuw."@nl.
+dbr:Cologne_Cathedral rdfs:comment "La catedral de Colonia (en alemán, Kölner Dom —oficialmente Hohe Domkirche St. Peter—), de estilo gótico, comenzó a construirse en 1248 y no se terminó hasta 1880. Está situada en el centro de la ciudad de Colonia. Con sus 157 metros de altura fue el edificio más alto del mundo hasta la culminación del Monumento a Washington en 1884, de 170 metros. Es el monumento más visitado de Alemania.[cita requerida] Fue declarada Patrimonio de la Humanidad por la Unesco en el año 1996."@es.
+dbr:Cologne_Cathedral dbp:bells 11 .
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Germany>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Landmarks_in_Cologne>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Roman_Catholic_cathedrals_in_Germany>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Gothic_architecture_in_Germany>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:World_Heritage_Sites_in_Danger>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Christian_architecture>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Former_world's_tallest_buildings>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:13th-century_Roman_Catholic_church_buildings>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Churches_completed_in_1880>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Churches_in_Cologne>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:19th-century_Roman_Catholic_church_buildings>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Articles_containing_video_clips>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Innenstadt,_Cologne>.
+dbr:Cologne_Cathedral dct:subject <http://dbpedia.org/resource/Category:Visitor_attractions_in_Cologne>.
+dbr:Cologne_Cathedral foaf:name "Cathedral of Saint Peter"@en.
+dbr:Cologne_Cathedral foaf:name "Cologne Cathedral"@en.
+dbr:Cologne_Cathedral foaf:homepage <http://www.koelner-dom.de/index.php?id=2&L=1>.
+dbr:Cologne_Cathedral geo:lat "50.9412994384765625"^^xsd:float.
+dbr:Cologne_Cathedral geo:long "6.95800018310546875"^^xsd:float.
+dbr:Cologne_Cathedral foaf:depiction <http://commons.wikimedia.org/wiki/Special:FilePath/Gothic-Cologne-Cathedral-004.jpg>.
+dbr:Cologne_Cathedral foaf:isPrimaryTopicOf wikipedia-en:Cologne_Cathedral.
+dbr:Cologne_Cathedral geo:geometry "POINT(6.9580001831055 50.941299438477)"^^virtrdf:Geometry.
+dbr:Cologne_Cathedral dbp:provost "Gerd Bachner"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:rows 2 .
+dbr:Cologne_Cathedral dbp:rows 3 .
+dbr:Cologne_Cathedral dbp:years "(157.38 m)"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:years 1880 .
+dbr:Cologne_Cathedral dbp:status dbr:Cathedral.
+dbr:Cologne_Cathedral dbp:director "Eberhard Metternich"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:vicar "Tobias Hopmann"^^rdf:langString.
+dbr:Cologne_Cathedral georss:point "50.9413 6.958".
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink ns25:boenig.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink ns26:domcam.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink <http://whc.unesco.org/sites/292.htm>.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink <http://www.koelner-dom.de/index.php?id=2&L=1>.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink <http://koelner-dommusik.de>.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink <http://whc.unesco.org/en/list/292>.
+dbr:Cologne_Cathedral dbo:wikiPageExternalLink <http://gigapan.com/gigapans/105398>.
+dbr:Cologne_Cathedral dbp:caption 19 .
+dbr:Cologne_Cathedral dbp:caption "View of Cologne Cathedral across the Rhine"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:caption "Groundplan"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:coordinatesDisplay "inline,title"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:align "right"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:id "s0000111"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:image "Jahrbuch MZK Band 03 - Gewölbesystem - Fig 75 Chordurchschnitt des Domes zu Cöln - Südseite.jpg"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:image "Plan.cathedrale.Cologne.png"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:before dbr:Rouen_Cathedral.
+dbr:Ulm_Minster dbp:before dbr:Cologne_Cathedral.
+dbr:Washington_Monument dbp:before dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral dbp:assistantorganist "Ulrich Brüggemann"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:viceprovost "Robert Kleine"^^rdf:langString.
+dbr:Cologne_Cathedral dbo:location dbr:Cologne.
+dbr:Cologne_Cathedral dbp:denomination dbr:Roman_Catholic.
+dbr:Cologne_Cathedral dbp:spireQuantity 2 .
+dbr:Cologne_Cathedral dbp:province dbr:List_of_Roman_Catholic_dioceses_in_Germany.
+dbr:Cologne_Cathedral dbp:headerAlign "center"^^rdf:langString.
+dbr:Cologne_Cathedral dbo:abstract "Katedra Świętego Piotra i Najświętszej Marii Panny w Kolonii (niem. Kölner Dom, oficjalnie Hohe Domkirche St. Peter und Maria) – archikatedra, największy i najważniejszy kościół niemieckiej Kolonii. W latach 313 do 782 świątynia była siedzibą biskupstwa, od 795 do dziś arcybiskupstwa kolońskiego. Budowa obecnej gotyckiej świątyni rozpoczęła się w 1248 i trwała z przerwami ponad 600 lat do 1880. Usytuowana na miejscu rzymskiej świątyni z IV wieku i późniejszego kościoła z czasów karolińskich nieopodal rzeki Ren katedra kolońska ma 144 m długości i 86 m szerokości oraz wieże o wysokości 157,38 mPo ukończeniu wież (około 1870) katedra była najwyższą budowlą świata do 1884. Jest drugą co do wysokości gotycką budowlą sakralną na świecie (po katedrze w Ulm) i trzecią co do wielkości katedrą świata pod względem powierzchni (po katedrze Świętej Marii w Sewilli i katedrze Narodzin Świętej Marii w Mediolanie). Powierzchnia kościoła wraz z wieżami to 7000 m². W 1996 r. katedra została wpisana na listę światowego dziedzictwa UNESCO. Budowla jest wizytówką zarówno Kolonii, jak i całych Niemiec, masowo odwiedzaną przez pielgrzymów i turystów; w 2001 było to blisko 6 mln osób. W 2005 roku katedra była jednym z głównych punktów programu Światowych Dni Młodzieży pod przewodnictwem papieża Benedykta XVI. Budowę świątyni rozpoczęto nie tylko na potrzeby liturgiczne, lecz także dla umieszczenia w niej sprowadzonych z Mediolanu relikwii Trzech Króli. Wysokie prezbiterium jest ideowym nawiązaniem do średniowiecznych relikwiarzy. Relikwie uczyniły Kolonię ważnym ośrodkiem pielgrzymkowym w średniowieczu, obok takich miejsc jak Rzym, Jerozolima, Santiago de Compostela i Akwizgran. Pod względem architektonicznym katedra stanowi cenny przykład recepcji francuskiego gotyku katedralnego oraz rozpowszechnionej na terenie krajów Rzeszy metody wielokrotnego stosowania elementów wertykalnych wewnątrz i na elewacjach zewnętrznych. W XIX wieku była jednym z najważniejszych źródeł inspiracji dla architektury neogotyckiej. Ukończenie budowy kolońskiej katedry było cenną okazją do poznania średniowiecznej sztuki budowlanej, inspiracją dla kształtującego się w Niemczech romantyzmu, do kształtowania idei umocnienia niemieckiego katolicyzmu, głoszonych m.in. przez Augusta Reicherspergera. Wystrój wnętrza tworzy cenny zbiór sztuki średniowiecznej, nowożytnej i nowoczesnej. Spośród nich wyróżniają się dominujący nad gotyckim ołtarzem głównym z II poł. XIII w. relikwiarz Trzech Króli, przedromański krucyfiks Gerona, gotyckie ołtarze Świętej Klary z XIV w. oraz Ołtarz Patronów Miasta – drugi z nich jest dziełem Stefana Lochnera. Ponadto gotyckie rzeźby Marii, Jezusa, Apostołów oraz Madonny Mediolańskiej i Pięknej Madonny, gotyckie stalle, liczne witraże z XIII–XX w. Na wieżach katedry wisi dwanaście dzwonów, w tym cztery gotyckie z XIV i XV stulecia oraz największy bijący dzwon w Europie – Dzwon Świętego Piotra."@pl.
+dbr:Cologne_Cathedral dbo:abstract "Кёльнский собор (нем. Kölner Dom) — римско-католический готический собор в Кёльне. Занимает третье место в списке самых высоких церквей мира и внесён в список объектов Всемирного культурного наследия. Строительство главного храма Кёльнской архиепископии велось в два приёма — в 1248—1437 гг. и в 1842—1880 годах. По окончании строительства 157-метровый собор на четыре года стал самым высоким зданием мира."@ru.
+dbr:Cologne_Cathedral dbo:abstract "A Catedral de Colônia (português brasileiro) ou Colónia (português europeu) (alemão: Kölner Dom), localizada na cidade alemã de Colônia, é uma igreja de estilo gótico, o marco principal da cidade e seu símbolo não-oficial. É a terceira igreja mais alta do mundo é patrimônio da humanidade. O símbolo da cidade atrai seis milhões de turistas por ano, sendo o local turístico mais visitado da Alemanha. Em 1164, foram trazidas de Milão as supostas ossadas dos Três Reis Magos. Elas estão atrás do altar, numa arca de ouro e prata, ornamentada com pedras preciosas. Imperdíveis são também as 12 igrejas românicas na cidade."@pt.
+dbr:Cologne_Cathedral dbo:abstract "Cologne Cathedral (German: Kölner Dom, officially Hohe Domkirche St. Petrus, Latin: Ecclesia Cathedralis Sanctorum Petri, English: High Cathedral of Saint Peter) is a Roman Catholic cathedral in Cologne, Germany. It is the seat of the Archbishop of Cologne and of the administration of the Archdiocese of Cologne. It is a renowned monument of German Catholicism and Gothic architecture and was declared a World Heritage Site in 1996. It is Germany's most visited landmark, attracting an average of 20,000 people a day, currently the tallest twin-spired church at 157 m (515 ft) tall. Construction of Cologne Cathedral commenced in 1248 and was halted in 1473, leaving it unfinished. Work restarted in the 19th century and was completed, to the original plan, in 1880. The cathedral is the largest Gothic church in Northern Europe and has the second-tallest spires. The towers for its two huge spires give the cathedral the largest façade of any church in the world. The choir has the largest height to width ratio, 3.6:1, of any medieval church. Cologne's medieval builders had planned a grand structure to house the reliquary of the Three Kings and fit its role as a place of worship for the Holy Roman Emperor. Despite having been left incomplete during the medieval period, Cologne Cathedral eventually became unified as \"a masterpiece of exceptional intrinsic value\" and \"a powerful testimony to the strength and persistence of Christian belief in medieval and modern Europe\"."@en.
+dbr:Cologne_Cathedral dbo:abstract "科隆主教座堂（Kölner Dom，全名Hohe Domkirche St. Peter und Maria），是位於德國科隆的一座天主教主教座堂，它是科隆市毫无争议的标志性建筑物。157米高的钟楼使得它成为德国第二（仅次于乌尔姆市的烏爾姆主教座堂）、世界第三高的教堂，另外也是世界上第三大的哥特式教堂（前两位是塞维利亚主教座堂和米兰主教座堂）。它從13世紀中起建，工程時斷時續，至1880年才由德皇威廉一世宣告完工，耗时超過600年，直到今日仍然修繕工程不斷。艺术史专家认为它完美地结合了所有中世纪哥特式建筑和装饰元素，因此聯合國教科文組織于1996年将其列為世界文化遺產（2004年科隆主教座堂被列入瀕危世界遺產名录，2006年脱离该名录）。 1880年至1888年间科隆主教座堂曾是世界上最高的建筑。它至今仍是德国最受欢迎的旅游景点：2001年有5百万游客参观了这座教堂，2004年达到了6百万。 科隆主教座堂隸屬於天主教科隆总教区，是科隆總主教的主教座堂。"@zh.
+dbr:Cologne_Cathedral dbo:abstract "ケルン大聖堂（ケルンだいせいどう、独:Kölner Dom）は、ドイツのケルンにあるゴシック様式の大聖堂。正式名称は、ザンクト・ペーター・ウント・マリア大聖堂（Dom St. Peter und Maria。聖ペトロとマリア大聖堂の意）。ゴシック様式の建築物としては世界最大であり、ローマ・カトリック教会のミサがおこなわれている。大聖堂の維持管理は主にケルン大聖堂中央建築協会によって担われている。"@ja.
+dbr:Cologne_Cathedral dbo:abstract "De dom van Keulen (Dom St. Peter und Maria) is een gotische kathedraal in het centrum van de Duitse stad Keulen. Het is de hoofdkerk van het aartsbisdom Keulen. Daarnaast is het de grootste kathedraal in Duitsland en tevens een van de grootste in heel Europa. De bouw begon op 15 augustus 1248 en kwam in de 15e eeuw stil te liggen. Pas eeuwen later, in 1824, werd de bouw hervat op basis van de originele ontwerpen. De dom werd in 1880 uiteindelijk in neogotische stijl voltooid. Alleen het laagste gedeelte van de westelijke toren is nog uit de 13e eeuw. Vanaf de 157,38 meter hoge noordtoren en de 157,31 meter hoge zuidtoren (beide 509 treden) kan men de hele stad overzien. De dom is gebouwd in de vorm van een kruiskerk en is inclusief het schip en de torens 144,58 meter lang en 86,25 meter breed. Het gebouw heeft een bijzondere inventaris, waaronder enkele glas-in-loodramen die dateren uit de 14e en de 16e eeuw. De kathedraal bevindt zich op 250 meter van de Rijn en ligt in de buurt van het Köln Hauptbahnhof, de Hohenzollernbrücke, het museum Ludwig en het Romeins-Germaans museum."@nl.
+dbr:Cologne_Cathedral dbo:abstract "كاتدرائية كولونيا (بالألمانية: Kölner Dom كولنر دوم واسمها الرسمي Hohe Domkirche St. Peter und Maria) هي إحدى أشهر الصروح المعمارية والدينية المهيبة في ألمانيا وتتمتع بقدرة عالية على جذب أكبر نسبة من السياح عرفهتا ألمانيا. هذه الكاتدرائية تعد الرمز الحقيقي لمدينة كولونيا م وهو ما يدفع الكثيرين إلى اعتبار مدينة كولونيا بمثابة جسد بلا روح دون الكاتدرائية \"الدوم\". تتبع الكاتدرائية الكنيسة الكاثوليكية وهي مقر رئيس أساقفة كولونيا. عندما انتهى بناء برجيها في العام 1880 م كانت أطول بناء في العالم (برجاها يرتفعان إلى 157 متراًً) وبقيت كذلك حتى بناء صرح واشنطن عام 1884 م. ولدت فكرة بناء هذه الكنيسة في عام 1164 م بعد أن قام رئيس الأساقفة في مدينة كولونيا الكاردينال راينالد فون داسيلل بإحضار رفات المجوس الثلاثة من ميلانو إلى كولونيا كهدية من القيصر فريدريك الأول الذي احتل ميلانو في نفس العام. ووفقاً للرواية التاريخية فالمجوس الثلاثة هم من تنبؤوا بميلاد السيد المسيح، ويبدو أن رفاتهم قد نقلت من القدس أثناء الحملات الصليبية. اقتبس تصميم الكاتدرائية الحالي من مبناها القديم الذي تم تدشينه في عام 873 م والذي تحول فيما بعد إلى مثال تم الاحتذاء به في مجال فن تصميم وبناء الكنائس في أوروبا. وفي عام 1248 م أعيد بناء الكنيسة على الطراز المعماري القوطي. وخلال عملية الهدم شب حريق في الجزء الشرقي للكاتدرائية مما دفع العاملين فيها آنذاك إلى إعادة ترميم الجزء الغربي فقط لإتاحة الإمكانية لإقامة قداسات دينية فيه. استمر العمل لأكثر من 600 عام حتى تم الوصول إلى الكنيسة في شكلها الحالي. في عام 1996 تم اختيار الكنيسة كأحد مواقع التراث العالمي من قبل اليونسكو وفي عام 2004 م تم إدراجها في قائمة مواقع التراث العالمي المهددة بالهدم بسبب كثرة أعمال البناء حولها والعديد من الأمور الأخرى. يحيط بالكاتدرائية ميدان كبير خاوي، تقام به الحفلات الموسيقية والتظاهرات الثقافية ومنه ينتقل المرء إلى أكبر شارع تجاري في كولونيا. ومن هنا يمكن أيضاً مشاهدة موكب كرنفال كولونيا الشهير، الذي يمر تحت سفح الكاتدرائية. وعلى الرغم من أن هذا المحيط ذو الطابع التجاري لا يعكس الزخم التاريخي للكاتدرائية، إلا أنها تهبه هالة من القدسية السامية، احتفاءً به وبالحياة الآدمية."@ar.
+dbr:Cologne_Cathedral dbo:abstract "La catedral de Colonia (en alemán, Kölner Dom —oficialmente Hohe Domkirche St. Peter—), de estilo gótico, comenzó a construirse en 1248 y no se terminó hasta 1880. Está situada en el centro de la ciudad de Colonia. Con sus 157 metros de altura fue el edificio más alto del mundo hasta la culminación del Monumento a Washington en 1884, de 170 metros. Es el monumento más visitado de Alemania.[cita requerida] Fue declarada Patrimonio de la Humanidad por la Unesco en el año 1996."@es.
+dbr:Cologne_Cathedral dbo:abstract "Der Kölner Dom (eigentlich die Hohe Domkirche St. Petrus) ist eine römisch-katholische Kirche in Köln unter dem Patrozinium des Apostels Petrus. Die Kathedrale des Erzbistums Köln war bis Ende 2009 auch Pfarrkirche der Domgemeinde; seit 2010 ist sie von der Pfarrseelsorge exemt. Seit 1996 zählt der Kölner Dom zum UNESCO-Weltkulturerbe. Der Kölner Dom ist mit 157,38 Metern Höhe nach dem Ulmer Münster das zweithöchste Kirchengebäude Europas sowie das dritthöchste der Welt. Die Kathedrale steht rund 250 Meter vom Rhein entfernt an der ehemaligen nördlichen römischen Stadtgrenze in direkter Nachbarschaft von Hauptbahnhof, Hohenzollernbrücke, Museum Ludwig und Römisch-Germanischem Museum. Sie ist auf dem Domhügel rund 17 m über dem Rhein von einer modernen Betonkonstruktion, der Domplatte, umgeben. Das Grundstück hat die Adresse Domkloster 4, 50667 Köln. Der Kölner Dom zählt zu den weltweit größten Kathedralen im gotischen Baustil. Viele Kunsthistoriker sehen in ihm eine einmalige Harmonisierung sämtlicher Bauelemente und des Schmuckwerks im Stil der spätmittelalterlich-gotischen Architektur verwirklicht. Wichtig zum Verständnis ist die Tatsache, dass der Baubeginn des Kölner Doms zwar ins 13. Jahrhundert fällt (Gotik), der Dom aber erst im 19. Jahrhundert nach jahrhundertelangem Baustopp vollendet wurde (Neugotik). Die charakteristische Doppelturmfront ist somit weitgehend ein Werk des industrialisierten 19. Jahrhunderts, gleichwohl gestaltet nach den 1814 wieder aufgefundenen Plänen, die ein Abbild der vorgesehenen Westfassade zeigen. Die mittelalterliche Gotik hat nur zwei bedeutende Kirchtürme dieser durchbrochenen Bauart hervorgebracht: Straßburg und Freiburg. Alle anderen ähnlichen Türme wie beispielsweise in Ulm oder Regensburg sind Werke der Neugotik des 19. Jahrhunderts. Die riesige Fläche der Westfassade mitsamt den beiden Türmen von über 7100 m² ist bis heute nirgendwo übertroffen worden. Von 1880 bis 1884 war der Kölner Dom das höchste Gebäude der Welt. Er ist zudem die meistbesuchte Sehenswürdigkeit Deutschlands: 2001 wurden fünf Millionen, seit 2004 jährlich sechs Millionen Besucher aus aller Welt gezählt, im Durchschnitt etwa 20.000 pro Tag. Im August 2005 besuchte Papst Benedikt XVI. anlässlich des Weltjugendtages 2005 den Dom. Daran erinnert die vom Kölner Bildhauer Heribert Calleen gestaltete bronzene Gedenktafel im Mittelschiff."@de.
+dbr:Cologne_Cathedral dbo:abstract "La cathédrale de Cologne (en allemand : Kölner Dom, de son nom plus officiel Hohe Domkirche St. Petrus, soit « Haute Église Cathédrale Saint-Pierre ») est une église catholique romaine de la ville de Cologne ainsi que la cathédrale de l'archevêché de Cologne. Avec ses 157 mètres de haut et ses 533 marches, elle est la deuxième plus haute église d'Allemagne et du monde pour ses tours, après l'Église principale d'Ulm. Elle se situe à l'ancienne frontière romaine du Nord de la ville, juste à côté de l'actuelle gare, à proximité de la vieille ville (Altstadt), du pont Hohenzollern et des musées Ludwig et romain-germanique, à 250 m du Rhin. Elle est entourée d'une construction moderne en béton, le « plateau de la Cathédrale » (Domplatte). Le tout se situe sur la « colline de la Cathédrale » (Domhügel), à 17 mètres au-dessus du Rhin. Elle est également la troisième plus vaste cathédrale de style gothique (après la cathédrale de Séville et le dôme de Milan). Son exceptionnelle valeur intrinsèque et, malgré l'achèvement tardif de la construction, son authenticité architecturale liée à une fidélité absolue aux plans d'origine ont été reconnues par l'Unesco qui l'a inscrite en 1996 sur sa liste du patrimoine mondial. L'énorme façade ouest avec les deux tours, de plus de 7 100 m2, n'a pour l'instant été dépassée nulle part ailleurs dans le monde. C'est le monument le plus visité d'Allemagne, avec 5 millions de visiteurs en 2001 et 6 millions en 2004, venus du monde entier. Le pape Benoît XVI s'y est rendu en 2005, lors des Journées mondiales de la Jeunesse organisées à Cologne."@fr.
+dbr:Cologne_Cathedral dbo:thumbnail <http://commons.wikimedia.org/wiki/Special:FilePath/Gothic-Cologne-Cathedral-004.jpg?width=300>.
+dbr:Cologne_Cathedral dbo:country dbr:Germany.
+dbr:Cologne_Cathedral dbp:wordnet_type ns27:synset-skyscraper-noun-1.
+dbr:Cologne_Cathedral dbp:wordnet_type ns27:synset-monument-noun-2.
+dbr:Cologne_Cathedral dbp:functionalStatus "Active"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:organist ns25:boenig.
+dbr:Cologne_Cathedral ns28:hypernym dbr:Cathedral.
+dbr:Cologne_Cathedral dbp:title <http://dbpedia.org/resource/World's_tallest_structure>.
+dbr:Cologne_Cathedral dbp:title "Cologne Cathedral"^^rdf:langString.
+dbr:Cologne_Cathedral dbp:title dbr:List_of_tallest_buildings_and_structures_in_the_world.
+dbr:Cologne_Cathedral dbp:title dbr:List_of_tallest_buildings_in_Europe.
+dbr:Cologne_Cathedral dbp:width 185 .
+dbr:Cologne_Cathedral dbp:width 255 .
+dbr:Cologne_Cathedral dbp:direction "horizontal"^^rdf:langString.
+dbr:Cologne_Cathedral dbo:architecturalStyle dbr:Gothic_architecture.
+dbr:Cologne_Cathedral dbp:archdiocese dbr:Roman_Catholic_Archdiocese_of_Cologne.
+dbr:Cologne_Cathedral dbp:yearsBuilt 1950 .
+dbr:Cologne_Cathedral dbp:yearsBuilt 1840 .
+dbr:Cologne_Cathedral dbp:yearsBuilt 1248 .
+dbr:Cologne_Cathedral dbp:archbishop dbr:Rainer_Woelki.
+dbr:Roman_Catholic_Archdiocese_of_Cologne dbp:cathedral dbr:Cologne_Cathedral.
+dbr:Eurovision_Young_Musicians_2016 dbp:venue dbr:Cologne_Cathedral.
+dbr:Eurovision_Young_Musicians_2014 dbp:venue dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral dbp:near dbr:Rhine.
+<http://www.koelner-dom.de/index.php?id=2&L=1> dbp:show dbr:Cologne_Cathedral.
+dbr:Cologne_Cathedral dbp:picture <http://commons.wikimedia.org/wiki/Special:FilePath/Gothic-Cologne-Cathedral-004.jpg>.
+dbr:Cologne_Cathedral "is_the_largest_cathedral_in" dbr:Germany.
+dbr:Cologne_Cathedral "600_years" dbr:Construction.
+dbr:Cologne_Cathedral "has_the_oldest_wooden_cross" dbr:Europe.
+11 "bells_in" dbr:Cologne_Cathedral.
+ns25:boenig "plays_the_organ_in" dbr:Cologne_Cathedral.
+"Ulrich Brüggemann"^^rdf:langString "plays_the_organ_in" dbr:Cologne_Cathedral.
+
+#2020-01-09T09:04:34.523Z in=234 out=232 ent=237 step=474 brake=2 inf=719580 sec=0.093 inf/sec=7737419
+#ENDS
+

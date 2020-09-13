@@ -1,0 +1,80 @@
+﻿<Window x:Class="EBRS.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:EBRS"
+        mc:Ignorable="d"
+        Title="EBRS" Height="450" Width="450">
+    <TabControl>
+        <TabItem Header="reasoner">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="28*"/>
+                    <RowDefinition Height="40*"/>
+                </Grid.RowDefinitions>
+                <Border Grid.Row="0" BorderBrush="Black" BorderThickness="1">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Name="stackPanel_inputFiles">
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+                <WrapPanel Grid.Row="1" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top">
+                    <Button Name="btn_openBrowser" Click="btn_openBrowser_Click" Visibility="Collapsed">Open Browser</Button>
+                    <Button Name="btn_reason" Margin="5,0,0,0" Click="btn_reason_Click" >Do Reasoning</Button>
+                    <Button Name="btn_saveInput" Margin="5,0,0,0" Click="btn_saveInput_Click" >Save</Button>
+                </WrapPanel>
+                <Grid Grid.Row="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0">Query</Label>
+                    <TextBox Name="textBox_ask" Grid.Row="1" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+                </Grid>
+                <Grid Grid.Row="3">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="26"/>
+                        <RowDefinition/>
+                    </Grid.RowDefinitions>
+                    <Label Grid.Row="0">Result</Label>
+                    <TextBox Name="textBox_result" Grid.Row="1" Margin="5" TextWrapping="Wrap" AcceptsReturn="True"></TextBox>
+                </Grid>
+            </Grid>
+        </TabItem>
+        <TabItem Header="rules">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="26"/>
+                    <RowDefinition Height="25*"/>
+                    <RowDefinition Height="7*"/>
+                    <RowDefinition Height="24*"/>
+                </Grid.RowDefinitions>
+                <Label Grid.Row="0" VerticalAlignment="Bottom">Ontology List</Label>
+                <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Name="stackPanel_ontologyFiles">
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+                <Label Grid.Row="2" VerticalAlignment="Bottom">Theory List</Label>
+                <Border Grid.Row="3" BorderBrush="Black" BorderThickness="1">
+                    <ScrollViewer VerticalScrollBarVisibility="Auto">
+                        <StackPanel Name="stackPanel_theoryFiles">
+                        </StackPanel>
+                    </ScrollViewer>
+                </Border>
+                <WrapPanel Grid.Row="4" Margin="5" HorizontalAlignment="Right" VerticalAlignment="Top">
+                    <Button Name="btn_saveRules" Margin="5,0,0,0" Click="btn_saveRules_Click" >Save</Button>
+                </WrapPanel>
+                <ScrollViewer Grid.Row="5" VerticalScrollBarVisibility="Auto" Margin="5">
+                    <TextBox Name="textBlock_rules"></TextBox>
+                </ScrollViewer>
+            </Grid>
+        </TabItem>
+    </TabControl>
+</Window>

@@ -1,0 +1,35 @@
+@prefix rdf:	<http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix dbc:	<http://dbpedia.org/resource/Category:> .
+@prefix skos:	<http://www.w3.org/2004/02/skos/core#> .
+dbc:World_Heritage_Sites_by_continent	rdf:type	skos:Concept .
+@prefix rdfs:	<http://www.w3.org/2000/01/rdf-schema#> .
+dbc:World_Heritage_Sites_by_continent	rdfs:label	"World Heritage Sites by continent"@en .
+@prefix owl:	<http://www.w3.org/2002/07/owl#> .
+@prefix ns5:	<http://es.dbpedia.org/resource/Categor\u00EDa:> .
+dbc:World_Heritage_Sites_by_continent	owl:sameAs	ns5:Patrimonio_de_la_Humanidad_por_continente ,
+		<http://ko.dbpedia.org/resource/\uBD84\uB958:\uB300\uB959\uBCC4_\uC138\uACC4\uC720\uC0B0> .
+@prefix wikidata:	<http://www.wikidata.org/entity/> .
+dbc:World_Heritage_Sites_by_continent	owl:sameAs	wikidata:Q7703448 .
+@prefix ns7:	<http://fr.dbpedia.org/resource/Cat\u00E9gorie:> .
+dbc:World_Heritage_Sites_by_continent	owl:sameAs	ns7:Patrimoine_mondial_par_continent ,
+		<http://el.dbpedia.org/resource/\u039A\u03B1\u03C4\u03B7\u03B3\u03BF\u03C1\u03AF\u03B1:\u039C\u03BD\u03B7\u03BC\u03B5\u03AF\u03B1_\u03A0\u03B1\u03B3\u03BA\u03CC\u03C3\u03BC\u03B9\u03B1\u03C2_\u039A\u03BB\u03B7\u03C1\u03BF\u03BD\u03BF\u03BC\u03B9\u03AC\u03C2_\u03B1\u03BD\u03AC_\u03AE\u03C0\u03B5\u03B9\u03C1\u03BF> ,
+		<http://it.dbpedia.org/resource/Categoria:Patrimoni_dell\u0027umanit\u00E0_per_continente> ,
+		<http://ja.dbpedia.org/resource/Category:\u5927\u9678\u5225\u306E\u4E16\u754C\u907A\u7523> .
+@prefix dbpedia-wikidata:	<http://wikidata.dbpedia.org/resource/> .
+dbc:World_Heritage_Sites_by_continent	owl:sameAs	dbpedia-wikidata:Q7703448 ,
+		dbc:World_Heritage_Sites_by_continent .
+@prefix ns9:	<http://id.dbpedia.org/resource/Kategori:> .
+dbc:World_Heritage_Sites_by_continent	owl:sameAs	ns9:Situs_Warisan_Dunia_UNESCO_menurut_kawasan ;
+	skos:broader	dbc:World_Heritage_Sites ,
+		dbc:Categories_by_continent ;
+	skos:prefLabel	"World Heritage Sites by continent"@en .
+@prefix prov:	<http://www.w3.org/ns/prov#> .
+dbc:World_Heritage_Sites_by_continent	prov:wasDerivedFrom	<http://en.wikipedia.org/wiki/Category:World_Heritage_Sites_by_continent?oldid=545686733> .
+@prefix dbo:	<http://dbpedia.org/ontology/> .
+dbc:World_Heritage_Sites_by_continent	dbo:wikiPageRevisionID	545686733 ;
+	dbo:wikiPageID	23786999 .
+dbc:World_Heritage_Sites_in_Africa	skos:broader	dbc:World_Heritage_Sites_by_continent .
+dbc:World_Heritage_Sites_in_Asia	skos:broader	dbc:World_Heritage_Sites_by_continent .
+dbc:World_Heritage_Sites_in_Oceania	skos:broader	dbc:World_Heritage_Sites_by_continent .
+dbc:World_Heritage_Sites_in_Europe	skos:broader	dbc:World_Heritage_Sites_by_continent .
+dbc:World_Heritage_Sites_in_the_Americas	skos:broader	dbc:World_Heritage_Sites_by_continent .
